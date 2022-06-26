@@ -1,0 +1,33 @@
+{
+  "name": "graphql-sandbox",
+  "version": "1.0.0",
+  "description": "graphql 2nd video practice directory",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --experimental-modules index.js "
+  },
+  "author": "Armani Appolon",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^8.3.10",
+    "casual": "^1.6.2",
+    "crypto": "^1.0.1",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "graphql-tools": "^8.2.8",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.3.2",
+    "nodemon": "^2.0.16",
+    "sequelize": "^6.19.0",
+    "sqlite3": "^5.0.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-node": "^0.0.1-security",
+    "babel-preset-env": "^1.7.0"
+  }
+}
